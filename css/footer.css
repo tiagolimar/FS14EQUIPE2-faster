@@ -1,0 +1,163 @@
+
+@import url('https://fonts.googleapis.com/css2?family= Montserrat: família= Montserrat:wght@100 & display=swap');
+
+*{
+  margin: 0;
+}
+
+.footer-main{
+  margin-top: 45px;
+  margin-left: 0;
+  margin-bottom: 45px;
+  margin-right: 0;
+  
+}
+
+.footer-main-area{
+  padding: 55px 206px;
+  background-color: #f24b78;
+  
+  
+}
+
+.container{
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+  
+
+}
+
+.btn{
+
+width: 64px;
+height: 78px;
+right: 40px;
+bottom: 0px;
+color: white;
+background: #030140;
+order: 1;
+margin-bottom: -178px;
+margin-right: -170px;
+
+}
+
+
+#icone{
+
+  max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.1s;
+}
+
+#icone:hover{
+
+  -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+  
+
+}
+
+.btn2{
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 12.5px 29.5625px 13.5px 30px;
+color: white;
+font-size: large;
+font-weight: bold;
+background: #030140;
+border-radius: 30px;
+margin-left: -169px;
+
+}
+
+.btn2 :hover{
+
+color:#f24b78;
+transition-duration:0.2;
+transition-timing-function: ease-out;
+transition-delay: 0s;
+
+}
+
+
+ #icone{
+  display: flex;
+  justify-content: center;
+ }
+
+
+li, a{
+  list-style-type: none;
+  color: white;
+  text-decoration: none;
+  line-height: 2;
+  font-family:'Montserrat', sans-serif;
+}
+
+.links a :link{ 
+  text-decoration:none;
+ }
+
+  
+.links a :hover{ 
+  text-decoration: underline; 
+ }
+
+
+.footer-social{
+
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  grid-gap: 10px;
+}
+
+.footer-texto{
+
+  display: flex;
+  justify-content: center;
+  color: #f24b78;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.zoom1{
+
+  max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.zoom1:hover{
+
+  -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+
+}
+
+.zoom2{
+
+  max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.zoom2:hover{
+
+  -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+  
+}
+  
+
+    
+  

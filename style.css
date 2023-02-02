@@ -1,0 +1,135 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    margin-left: 78px;
+    margin-top: 6px;
+}
+
+.nav-list{
+    display: flex;
+    list-style: none;
+    margin-right: 50px;
+}
+
+.nav-list li{
+    margin-left: 30px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: #373f41;
+    font-family: 'Montserrat', sans-serif;
+    transition: all .2s ease-out;
+}
+
+a:hover{
+    color: #f24b78;
+    transition: all .2s ease-out;
+}
+
+.botao{
+    width: 180px;
+    height: 42px;
+    font-size: 16px;
+    margin-right: 110px;
+    background-color: #f24b78;
+    color: white;
+    border-radius: 30px;
+    display: flex;
+    font-family: "Poppins",sans-serif;
+    align-items: center;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 0 20px;
+    font-weight: 700;
+}
+
+.banner{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    position: relative;
+    min-height: 600px;
+    font-family: 'Hellix', sans-serif;
+}
+
+
+.imagem-esquerda{
+    position: absolute;
+    top: 20px;
+    left: 0px;
+}
+
+.mensagem-principal{
+    text-align: center;
+}
+
+
+
+.mensagem-principal h1{
+    font-size: 40px;
+    color: #030140;
+    position: relative;
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding: 10px;
+}
+
+small{
+    font-size: 24px;
+    font-weight: 100;
+}
+
+span{
+    color: #f24b78;
+    font-size: 60px;
+}
+
+.mensagem-principal p{
+    color: #030140;
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.mensagem-principal button{
+    width: 440px;
+    background-color: #030140;
+    color: aliceblue;
+    border-radius: 30px;
+    padding: 16px;
+    font-size: 20px;
+    border: none;
+    font-weight: 700;
+    transition: .2s;
+}
+
+.mensagem-principal button:hover{
+    background-color: #f24b78;
+    border: none;
+    cursor: pointer;
+}
+
+.imagem-direita{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+

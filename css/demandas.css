@@ -1,0 +1,219 @@
+.demanda{
+    margin: 80px 0;
+}
+
+.demanda .container{
+    width: calc(100% - 40px);
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.titulo-h2.centro{
+ text-align: center;
+}
+
+.titulo-h2.dark{
+    color: #030140;
+}
+
+.titulo-h2.demanda-titulo{
+    font-size: 48px;
+}
+
+.titulo-h2{
+    font-weight: 700;
+    font-family: "Hellix",sans-serif;
+    margin-bottom: 50px;
+    line-height: 125%;
+}
+
+.demanda-lista{
+    width: 100%;
+    grid-gap: 55px 34px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.demanda-item{
+    border-radius: 15px;
+    background: #fff;
+    padding: 30px 35px;
+    box-shadow: 0 0 25px rgb(0 0 0 / 5%);
+}
+
+.demanda-item .demanda-item-imagem{
+    width: 100%;
+    height: 145px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.demanda-item .demanda-item-imagem imagem{
+    max-width: 135px;
+    width: auto;
+    display: block;
+}
+
+.demanda-item .demanda-item-info{
+    margin-top: 20px;
+    min-height: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.demanda-item .demanda-item-info p{
+    text-align: center;
+    font-size: 18;
+    line-height: 150%;
+    color: #373f41;
+    font-family: "Montserrat",sans-serif;
+}
+
+.testemunho{
+    margin: 50px 0;
+}
+
+.testemunho-box{
+    max-width: 1110px;
+    width: calc(100% - 40px);
+    margin: 0 auto;
+    border-radius: 30px;
+    box-shadow: 0 0 25px rgb(0 0 0 / 5%);
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 80px 20px 80px 50px;
+}
+
+.testemunho-box-imagem img{
+    width: 270px;
+    height: 203px;
+}
+
+.testemunho-box-imagem{
+    width: 270px;
+    position: relative;
+    margin: 0 auto;
+    min-height: 250px;
+}
+
+.testemunho-box-info p{
+    width: 100%;
+    text-align: center;
+    font-family: "Montserrat",sans-serif;
+    font-size: 16px;
+    color: #030140;
+    line-height: 150%;
+}
+
+.testemunho-box-info p strong{
+    font-family: "hellix"; sans-serif;
+}
+
+strong{
+    font-weight: bold;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.arrow-prev {
+    background-image: url(file:///C:/Users/Vin%C3%ADcius%20Oliveira/Documents/Visual%20Studio%20-%20FS14/SiteFaster%20-%20Copia/FS14EQUIPE2/img/demandas/anterior.svg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: 18px 34px;
+    border: none;
+    cursor: pointer;
+    display: block;
+    height: 40px;
+    left: 0;
+    overflow: hidden;
+    outline: none;
+    position: absolute;
+    padding: 0;
+    text-indent: -999999px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    z-index: 100;
+    transition: all .2s ease-out;
+}
+
+.arrow-next {
+    background-image: url(file:///C:/Users/Vin%C3%ADcius%20Oliveira/Documents/Visual%20Studio%20-%20FS14/SiteFaster%20-%20Copia/FS14EQUIPE2/img/demandas/proximo.svg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: 18px 34px;
+    border: none;
+    cursor: pointer;
+    display: block;
+    height: 40px;
+    outline: none;
+    overflow: hidden;
+    position: absolute;
+    padding: 0;
+    right: 0;
+    text-indent: -999999px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    z-index: 100;
+    transition: all .2s ease-out;
+}
+.testemunho-box-capa{
+    position: relative;
+    width: calc(100% - 510px);
+    padding: 20px;
+}
+
+.testemunho-box-capa-texto{
+    padding: 0 10px;
+}
+
+.testemunho-box-capa-texto p{
+    font-size: 18px;
+    color: #373f41;
+    font-family: "Montserrat",sans-serif;
+    line-height: 32px;
+    margin: 30px;
+}
+
+.testemunho-box-capa::before{
+    width: 80px;
+    height: 105px;
+    background-image: url(file:///C:/Users/Vin%C3%ADcius%20Oliveira/Documents/Visual%20Studio%20-%20FS14/SiteFaster%20-%20Copia/FS14EQUIPE2/img/demandas/aspas-before.svg);
+    top: -50px;
+    left: 0;
+}
+
+.testemunho-box-capa::after, .testemunho-box-capa::before{
+    content: "";
+    background-repeat: no-repeat;
+    background-position: 50%;
+    position: absolute;
+}
+
+.testemunho-box-capa::after{
+    width: 105px;
+    height: 80px;
+    bottom: -50px;
+    right: 0;
+    background-image: url(file:///C:/Users/Vin%C3%ADcius%20Oliveira/Documents/Visual%20Studio%20-%20FS14/SiteFaster%20-%20Copia/FS14EQUIPE2/img/demandas/aspas-after.svg);
+}
+
+.testemunho-box-capa::after, .testemunho-box-capa::before{
+    content: "";
+    background-repeat: no-repeat;
+    background-position: 50%;
+    position: absolute;
+}
