@@ -36,6 +36,7 @@ section.como-funciona{
 .comofunciona-text-p{
     color: #737b7d;
     margin: 0 auto 20px;
+    font-weight: 300;
 }
 
 /*Parte 2*/
@@ -68,6 +69,7 @@ section.como-funciona{
     margin-bottom: 35px;
     color:#737b7d;
     font-weight: bold;
+    list-style-type: decimal;
 }
 
 .comofunciona-lista-ol li strong{
