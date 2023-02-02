@@ -98,9 +98,36 @@ small{
     font-weight: 100;
 }
 
-span{
+.digitacao{
+    display: flex;
+    justify-content: center;
+}
+
+.letra{
+    display: none;
+}
+
+.visivel{
+    display: inline-block;
     color: #f24b78;
     font-size: 60px;
+}
+
+.cursor{
+    display: inline-block;
+    color: #f24b78;
+    font-size: 60px;
+    animation: piscando 1000ms infinite normal;
+}
+
+@keyframes piscando{
+    from{
+        color: #f24b78;
+    }
+
+    to{
+        color: transparent;
+    }
 }
 
 .mensagem-principal p{
